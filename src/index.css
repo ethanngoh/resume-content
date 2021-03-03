@@ -10,3 +10,19 @@ body {
   margin: 0px;
   font-family: "Helvetica";
 }
+
+ul {
+  margin: 0;
+  padding: 0 1.25em;
+  list-style-type: none;
+  position: relative; /* It's needed for setting position to absolute in the next rule. */
+}
+li {
+  padding-bottom: 0.25em;
+}
+li::before {
+  content: "■";
+  position: absolute;
+  left: -0; /* Adjust this value so that it appears where you want. */
+  font-size: 1.1em; /* Adjust this value so that it appears what size you want. */
+}
