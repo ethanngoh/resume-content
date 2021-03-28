@@ -25,7 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "print": "mkdir -p output && node render.js",
-    "build": "BROWSER=none pm2 start --name web npm -- run start && wait-on http://localhost:3000 && node render.js || true && pm2 stop web && pm2 delete all"
+    "build": "BROWSER=none mkdir -p output && pm2 start --name web npm -- run start && wait-on http://localhost:3000 && node render.js || true && pm2 stop web && pm2 delete all"
   },
   "eslintConfig": {
     "extends": [
