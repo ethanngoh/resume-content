@@ -3,6 +3,7 @@ import { HEADER_COLOR, HEADER_SIZE } from "./Constants";
 
 export const Row = styled.div`
   display: flex;
+
   flex-direction: row;
 `;
 
@@ -22,5 +23,5 @@ export const RowSubHeader = styled.div`
 export const RowBody = styled.div``;
 
 export const RowPostFix = styled.div`
-  width: 300px;
+  width: 100px;
 `;

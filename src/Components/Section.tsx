@@ -14,5 +14,5 @@ export const SectionHeader = styled.div`
 `;
 
 export const SectionContent = styled.div`
-  flex-grow: 1;
+  flex-grow: calc(100%-100px);
 `;

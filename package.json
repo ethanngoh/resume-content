@@ -11,18 +11,21 @@
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
     "@types/styled-components": "^5.1.7",
+    "pm2": "^4.5.5",
     "puppeteer": "^8.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
     "styled-components": "^5.2.1",
-    "typescript": "^4.2.2"
+    "typescript": "^4.2.2",
+    "wait-on": "^5.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "print": "mkdir -p output && node render.js"
+    "print": "mkdir -p output && node render.js",
+    "build": "BROWSER=none pm2 start --name web npm -- run start && wait-on http://localhost:3000 && node render.js || true && pm2 stop web && pm2 delete all"
   },
   "eslintConfig": {
     "extends": [
