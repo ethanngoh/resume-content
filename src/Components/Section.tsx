@@ -1,18 +1,21 @@
 import styled from "styled-components";
-import { HEADER_COLOR, HEADER_SIZE } from "./Constants";
+import { COLORS } from "../colors";
+import { HEADER_SIZE } from "../sizes";
 
 export const Section = styled.div`
   display: flex;
   flex-direction: row;
+  justify-content: center;
   padding-top: 0.5em;
 `;
 
 export const SectionHeader = styled.div`
   width: 100px;
   font-size: ${HEADER_SIZE};
-  color: ${HEADER_COLOR};
+  color: ${COLORS.BACKUP_BLUE};
 `;
 
 export const SectionContent = styled.div`
-  flex-grow: calc(100%-100px);
+  width: 100%;
+  align-item: bottom;
 `;

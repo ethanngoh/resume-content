@@ -28,6 +28,7 @@
     "print": "mkdir -p output && node render.js",
     "build": "mkdir -p output && BROWSER=none pm2 start --name web npm -- run start && npm run grab-pdf  && pm2 stop web && pm2 delete all",
     "watch-pdf": "nodemon --exec 'npm run build' -e js,jsx,ts,tsx,css",
+    "watch-pdf-fast": "nodemon --exec 'npm run grab-pdf' -e js,jsx,ts,tsx,css",
     "grab-pdf": "wait-on http://localhost:3000 && node render.js || true"
   },
   "eslintConfig": {

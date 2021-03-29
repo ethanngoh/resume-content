@@ -43,6 +43,122 @@ export const JobExperience = () => (
         </RowContent>
         <RowPostFix>June 2016 to June 2019</RowPostFix>
       </Row>
+      <Row>
+        <RowContent>
+          <RowSubHeader>Frontend Engineer - Internal Productivity</RowSubHeader>
+          <RowBody>
+            <ul>
+              <li>
+                As a member of this team, I led our frontend development and was
+                the primary interface with partner teams for both requirements
+                managment and ongoing support needs.
+              </li>
+              <li>
+                Projects I contributed to as a member of the team include our
+                internal corporate directory, OKR aggregation tools,
+                auto-generating documentation site and compensation dashboard.
+              </li>
+            </ul>
+          </RowBody>
+        </RowContent>
+        <RowPostFix></RowPostFix>
+      </Row>
+      <Row>
+        <RowContent>
+          <RowSubHeader>Frontend Engineer - Observability</RowSubHeader>
+          <RowBody>
+            <ul>
+              <li>
+                While on this team, I owned our Grafana instance, developing a
+                custom Grafana plugin for work- ing with Wavefront. Developed an
+                internal portal for surfacing infrastructure events from various
+                services to support live site issues (Envoy metrics, Jenkins
+                deploys, PagerDuty alarms).
+              </li>
+              <li>
+                Supported other teams in creating alarms and dashboards for
+                their services.
+              </li>
+            </ul>
+          </RowBody>
+        </RowContent>
+        <RowPostFix></RowPostFix>
+      </Row>
+      <Row>
+        <RowContent>
+          <RowSubHeader>Other Notes</RowSubHeader>
+          <RowBody>
+            <ul>
+              <li>
+                Part of on-call rotations for all teams I was a member of,
+                including non-frontend systems.
+              </li>
+              <li>
+                Assisting in the Seattle internship pilot. This includes
+                attending all interview debriefs for interns to help calibrate
+                the new interview category, on campus recruiting and mentoring
+                an intern.
+              </li>
+            </ul>
+          </RowBody>
+        </RowContent>
+        <RowPostFix></RowPostFix>
+      </Row>
+      <Row>
+        <RowContent>
+          <RowHeader>Microsoft</RowHeader>
+          <RowSubHeader>Software Engineer II - Gig Jam</RowSubHeader>
+          <RowBody>
+            <ul>
+              <li>
+                Created a multi-platform application using web technologies
+                (TypeScript, KnockoutJS, HTML, LESS, Cordova) and native
+                platform extensions (Cordova plugins).
+              </li>
+              <li>
+                Developed infrastructure to support our cross platform
+                development needs, ensuring that the entire team could develop
+                for iOS in a Windows heavy environment. This included converting
+                and supporting a move from MSBuild to Gulp.
+              </li>
+              <li>
+                Managed two contingent developers, scheduling work, reviewing
+                deliverables and growing their technical abilities, helping them
+                to contribute even more within the team.
+              </li>
+            </ul>
+          </RowBody>
+        </RowContent>
+        <RowPostFix>June 2013 to April 2016</RowPostFix>
+      </Row>
+      <Row>
+        <RowContent>
+          <RowSubHeader>
+            SDET/SDE - Enterprise Client Management Team (Configuration Manager
+            and Intune)
+          </RowSubHeader>
+          <RowBody>
+            <ul>
+              <li>
+                Worked on ensuring quality releases of Intune. This included
+                testing for the migration from an internal legacy data center
+                system with extensive SQL usage to Azure.
+              </li>
+              <li>
+                Developed automation for testing application installation
+                scenarios. Most notable, created a tool that allowed for the
+                creation of arbitrary application packages, increasing testing
+                efficiency.
+              </li>
+              <li>
+                Worked with OS group to support our products with initial
+                Windows 10 launch.
+              </li>
+            </ul>
+          </RowBody>
+        </RowContent>
+        <RowPostFix></RowPostFix>
+      </Row>
     </SectionContent>
   </Section>
 );

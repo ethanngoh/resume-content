@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import { HEADER_COLOR, HEADER_SIZE } from "./Constants";
+import { COLORS } from "../colors";
+import { HEADER_SIZE } from "../sizes";
 
 export const Row = styled.div`
   display: flex;
@@ -8,20 +9,20 @@ export const Row = styled.div`
 `;
 
 export const RowContent = styled.div`
-  flex-grow: 1;
+  width: 100%;
 `;
 
 export const RowHeader = styled.div`
   font-size: ${HEADER_SIZE};
-  color: ${HEADER_COLOR};
+  color: ${COLORS.BACKUP_BLUE};
 `;
 
 export const RowSubHeader = styled.div`
-  color: ${HEADER_COLOR};
+  color: ${COLORS.BACKUP_BLUE};
 `;
 
 export const RowBody = styled.div``;
 
 export const RowPostFix = styled.div`
-  width: 100px;
+  width: 120px;
 `;

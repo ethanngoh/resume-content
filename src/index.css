@@ -1,14 +1,15 @@
 #pdf {
-  height: 1065px;
+  height: 1064px;
   width: 816px;
-  background-color: white;
-  padding: 1em;
+  overflow: hidden;
+  padding: 1.25em;
 }
 body {
   background-color: gray;
   padding: 0px;
   margin: 0px;
-  font-family: "Helvetica";
+  font-family: "Raleway", sans-serif;
+  font-size: 0.87em;
 }
 
 ul {

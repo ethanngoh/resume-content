@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { TITLE_COLOR } from "../Components/Constants";
+import { COLORS } from "../colors";
 const TableHeader = styled.div`
   font-weight: bold;
   width: 80px;
@@ -14,7 +14,7 @@ const TableRow = styled.div`
 
 export const Header = () => (
   <div style={{ display: "flex" }}>
-    <div style={{ flexGrow: 1, fontSize: "3.5em", color: TITLE_COLOR }}>
+    <div style={{ flexGrow: 1, fontSize: "3.5em", color: COLORS.ROYAL_BLUE }}>
       Chris Bentivenga
     </div>
     <div style={{ display: "flex", flexDirection: "column" }}>
