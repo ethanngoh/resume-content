@@ -9,7 +9,7 @@ import { Section, SectionContent, SectionHeader } from "../Components/Section";
 
 export const School = () => (
   <Section>
-    <SectionHeader>Skills</SectionHeader>
+    <SectionHeader>School</SectionHeader>
     <SectionContent>
       <Row>
         <RowContent>
