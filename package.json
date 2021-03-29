@@ -11,6 +11,7 @@
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
     "@types/styled-components": "^5.1.7",
+    "nodemon": "^2.0.7",
     "pm2": "^4.5.5",
     "puppeteer": "^8.0.0",
     "react": "^17.0.1",
@@ -25,7 +26,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "print": "mkdir -p output && node render.js",
-    "build": "BROWSER=none mkdir -p output && pm2 start --name web npm -- run start && wait-on http://localhost:3000 && node render.js || true && pm2 stop web && pm2 delete all"
+    "build": "mkdir -p output && BROWSER=none pm2 start --name web npm -- run start && npm run grab-pdf  && pm2 stop web && pm2 delete all",
+    "watch-pdf": "nodemon --exec 'npm run build' -e js,jsx,ts,tsx,css",
+    "grab-pdf": "wait-on http://localhost:3000 && node render.js || true"
   },
   "eslintConfig": {
     "extends": [
