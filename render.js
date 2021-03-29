@@ -10,7 +10,7 @@ const runJob = async () => {
     });
     console.log("printing");
     await page.pdf({
-      path: `output/index.pdf`,
+      path: `output/chris-bentivenga-resume.pdf`,
       format: "Letter",
       printBackground: true,
     });
