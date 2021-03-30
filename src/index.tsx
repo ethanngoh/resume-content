@@ -2,12 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { useEffect } from "react";
 import { COLORS } from "./constants/colors";
-import { Awards } from "./parts/awards";
-import { Header } from "./parts/header";
-import { JobExperience } from "./parts/jobExperience";
-import { Overview } from "./parts/overview";
-import { School } from "./parts/school";
-import { Skills } from "./parts/skills";
+import { Awards } from "./sections/awards";
+import { Header } from "./sections/header";
+import { JobExperience } from "./sections/jobExperience";
+import { Overview } from "./sections/overview";
+import { School } from "./sections/school";
+import { Skills } from "./sections/skills";
 import styled from "styled-components";
 
 const PDF = styled.div`
