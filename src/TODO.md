@@ -1,5 +1,3 @@
 -   Add footnote (`Work history abbreviated for space. Full history available at https://www.linkedin.com/in/chrisbenti/`)
 -   Add border
 -   Add spacing between
--   Prettier
--   Refactor
