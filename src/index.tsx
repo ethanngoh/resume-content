@@ -11,35 +11,35 @@ import { Skills } from "./sections/skills";
 import styled from "styled-components";
 
 const PDF = styled.div`
-  height: 1064px;
-  width: 816px;
-  overflow: hidden;
-  padding: 1.25em;
-  font-family: "Raleway", sans-serif;
-  font-size: 0.87em;
+    height: 1064px;
+    width: 816px;
+    overflow: hidden;
+    padding: 1.25em;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.87em;
 `;
 
 function App() {
-  useEffect(() => {
-    document.body.style.backgroundColor = COLORS.OFF_WHITE;
-    document.body.style.padding = "0px";
-    document.body.style.margin = "0px";
-  });
-  return (
-    <PDF>
-      <Header />
-      <Overview />
-      <JobExperience />
-      <Skills />
-      <School />
-      <Awards />
-    </PDF>
-  );
+    useEffect(() => {
+        document.body.style.backgroundColor = COLORS.OFF_WHITE;
+        document.body.style.padding = "0px";
+        document.body.style.margin = "0px";
+    });
+    return (
+        <PDF>
+            <Header />
+            <Overview />
+            <JobExperience />
+            <Skills />
+            <School />
+            <Awards />
+        </PDF>
+    );
 }
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById("root")
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>,
+    document.getElementById("root")
 );

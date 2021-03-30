@@ -3,19 +3,19 @@ import { COLORS } from "../constants/colors";
 import { HEADER_SIZE } from "../constants/sizes";
 
 export const Section = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-top: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 0.5em;
 `;
 
 export const SectionHeader = styled.div`
-  width: 100px;
-  font-size: ${HEADER_SIZE};
-  color: ${COLORS.BACKUP_BLUE};
+    width: 100px;
+    font-size: ${HEADER_SIZE};
+    color: ${COLORS.BACKUP_BLUE};
 `;
 
 export const SectionContent = styled.div`
-  width: 100%;
-  align-item: bottom;
+    width: 100%;
+    align-item: bottom;
 `;
