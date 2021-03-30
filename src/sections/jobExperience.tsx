@@ -5,9 +5,9 @@ import {
     RowHeader,
     RowPostFix,
     RowSubHeader
-} from "../style/row";
-import { PrettyUL, PrettyLI } from "../style/prettyList";
-import { Section, SectionContent, SectionHeader } from "../style/section";
+} from "../components/row";
+import { PrettyUL, PrettyLI } from "../components/prettyList";
+import { Section, SectionContent, SectionHeader } from "../components/section";
 
 export const JobExperience = () => (
     <Section>
