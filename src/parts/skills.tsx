@@ -1,4 +1,4 @@
-import { Section, SectionContent, SectionHeader } from "../components/section";
+import { Section, SectionContent, SectionHeader } from "../style/section";
 
 export const Skills = () => (
     <Section>
