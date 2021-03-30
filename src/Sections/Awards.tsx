@@ -4,8 +4,8 @@ import {
   RowContent,
   RowHeader,
   RowPostFix,
-} from "../Components/Row";
-import { Section, SectionContent, SectionHeader } from "../Components/Section";
+} from "../components/row";
+import { Section, SectionContent, SectionHeader } from "../components/section";
 
 export const Awards = () => (
   <Section>

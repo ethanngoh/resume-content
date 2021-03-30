@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import { COLORS } from "../colors";
-import { HEADER_SIZE } from "../sizes";
+import { COLORS } from "../constants/colors";
+import { HEADER_SIZE } from "../constants/sizes";
 
 export const Row = styled.div`
   display: flex;

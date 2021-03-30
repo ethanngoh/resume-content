@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { COLORS } from "../colors";
+import { COLORS } from "../constants/colors";
 const TableHeader = styled.div`
   font-weight: bold;
   width: 80px;

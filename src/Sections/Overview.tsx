@@ -1,4 +1,4 @@
-import { Section, SectionContent, SectionHeader } from "../Components/Section";
+import { Section, SectionContent, SectionHeader } from "../components/section";
 
 export const Overview = () => (
   <Section style={{ alignItems: "baseline" }}>

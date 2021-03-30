@@ -5,8 +5,9 @@ import {
   RowHeader,
   RowPostFix,
   RowSubHeader,
-} from "../Components/Row";
-import { Section, SectionContent, SectionHeader } from "../Components/Section";
+} from "../components/row";
+import { PrettyUL, PrettyLI } from "../components/prettyList";
+import { Section, SectionContent, SectionHeader } from "../components/section";
 
 export const JobExperience = () => (
   <Section>
@@ -17,28 +18,29 @@ export const JobExperience = () => (
           <RowHeader>Lyft</RowHeader>
           <RowSubHeader>Frontend Engineer - Open Platform Team</RowSubHeader>
           <RowBody>
-            <ul>
-              <li>
+            <PrettyUL>
+              <PrettyLI>
                 Lead frontend developer for Lyft’s Open Platform initiative,
                 which allows autonomous vehicles to provide rides on Lyft’s
                 ridesharing network. To date, we’ve provided over 30,000
                 autonomous rides with our partner Aptiv in Las Vegas. This is
-                the world’s largest public Autonomous pilot.
-              </li>
-              <li>
-                Responsible for building frontend tools to facilitate
+                the world’s largest pubPrettyLIc Autonomous pilot.
+              </PrettyLI>
+              <PrettyLI>
+                Responsible for building frontend tools to faciPrettyLItate
                 operational needs of fleet (I.E real time insight into fleet
                 health and performance). These tools enhance research speed,
-                safety and compliance.
-              </li>
-              <li>
+                safety and compPrettyLIance.
+              </PrettyLI>
+              <PrettyLI>
                 As the lead frontend developer, I am responsible for designing
                 high level architecture, roadmap- ping, developing features,
                 growing the team (hiring and onboarding), and working closely
-                with cross functional partners to deliver a complete solution.
-              </li>
-              <li>Additional details covered by NDA.</li>
-            </ul>
+                with cross functional partners to dePrettyLIver a complete
+                solution.
+              </PrettyLI>
+              <PrettyLI>Additional details covered by NDA.</PrettyLI>
+            </PrettyUL>
           </RowBody>
         </RowContent>
         <RowPostFix>June 2016 to June 2019</RowPostFix>
@@ -47,39 +49,39 @@ export const JobExperience = () => (
         <RowContent>
           <RowSubHeader>Frontend Engineer - Internal Productivity</RowSubHeader>
           <RowBody>
-            <ul>
-              <li>
+            <PrettyUL>
+              <PrettyLI>
                 As a member of this team, I led our frontend development and was
                 the primary interface with partner teams for both requirements
                 managment and ongoing support needs.
-              </li>
-              <li>
+              </PrettyLI>
+              <PrettyLI>
                 Projects I contributed to as a member of the team include our
                 internal corporate directory, OKR aggregation tools,
                 auto-generating documentation site and compensation dashboard.
-              </li>
-            </ul>
+              </PrettyLI>
+            </PrettyUL>
           </RowBody>
         </RowContent>
         <RowPostFix></RowPostFix>
       </Row>
       <Row>
         <RowContent>
-          <RowSubHeader>Frontend Engineer - Observability</RowSubHeader>
+          <RowSubHeader>Frontend Engineer - ObservabiPrettyLIty</RowSubHeader>
           <RowBody>
-            <ul>
-              <li>
+            <PrettyUL>
+              <PrettyLI>
                 While on this team, I owned our Grafana instance, developing a
                 custom Grafana plugin for work- ing with Wavefront. Developed an
                 internal portal for surfacing infrastructure events from various
-                services to support live site issues (Envoy metrics, Jenkins
-                deploys, PagerDuty alarms).
-              </li>
-              <li>
+                services to support PrettyLIve site issues (Envoy metrics,
+                Jenkins deploys, PagerDuty alarms).
+              </PrettyLI>
+              <PrettyLI>
                 Supported other teams in creating alarms and dashboards for
                 their services.
-              </li>
-            </ul>
+              </PrettyLI>
+            </PrettyUL>
           </RowBody>
         </RowContent>
         <RowPostFix></RowPostFix>
@@ -88,18 +90,18 @@ export const JobExperience = () => (
         <RowContent>
           <RowSubHeader>Other Notes</RowSubHeader>
           <RowBody>
-            <ul>
-              <li>
+            <PrettyUL>
+              <PrettyLI>
                 Part of on-call rotations for all teams I was a member of,
                 including non-frontend systems.
-              </li>
-              <li>
+              </PrettyLI>
+              <PrettyLI>
                 Assisting in the Seattle internship pilot. This includes
-                attending all interview debriefs for interns to help calibrate
-                the new interview category, on campus recruiting and mentoring
-                an intern.
-              </li>
-            </ul>
+                attending all interview debriefs for interns to help
+                caPrettyLIbrate the new interview category, on campus recruiting
+                and mentoring an intern.
+              </PrettyLI>
+            </PrettyUL>
           </RowBody>
         </RowContent>
         <RowPostFix></RowPostFix>
@@ -109,24 +111,25 @@ export const JobExperience = () => (
           <RowHeader>Microsoft</RowHeader>
           <RowSubHeader>Software Engineer II - Gig Jam</RowSubHeader>
           <RowBody>
-            <ul>
-              <li>
-                Created a multi-platform application using web technologies
-                (TypeScript, KnockoutJS, HTML, LESS, Cordova) and native
-                platform extensions (Cordova plugins).
-              </li>
-              <li>
+            <PrettyUL>
+              <PrettyLI>
+                Created a mPrettyULti-platform appPrettyLIcation using web
+                technologies (TypeScript, KnockoutJS, HTML, LESS, Cordova) and
+                native platform extensions (Cordova plugins).
+              </PrettyLI>
+              <PrettyLI>
                 Developed infrastructure to support our cross platform
-                development needs, ensuring that the entire team could develop
-                for iOS in a Windows heavy environment. This included converting
-                and supporting a move from MSBuild to Gulp.
-              </li>
-              <li>
-                Managed two contingent developers, scheduling work, reviewing
-                deliverables and growing their technical abilities, helping them
-                to contribute even more within the team.
-              </li>
-            </ul>
+                development needs, ensuring that the entire team coPrettyULd
+                develop for iOS in a Windows heavy environment. This included
+                converting and supporting a move from MSBuild to GPrettyULp.
+              </PrettyLI>
+              <PrettyLI>
+                Managed two contingent developers, schedPrettyUPrettyLIng work,
+                reviewing dePrettyLIverables and growing their technical
+                abiPrettyLIties, helping them to contribute even more within the
+                team.
+              </PrettyLI>
+            </PrettyUL>
           </RowBody>
         </RowContent>
         <RowPostFix>June 2013 to April 2016</RowPostFix>
@@ -134,27 +137,27 @@ export const JobExperience = () => (
       <Row>
         <RowContent>
           <RowSubHeader>
-            SDET/SDE - Enterprise Client Management Team (Configuration Manager
-            and Intune)
+            SDET/SDE - Enterprise CPrettyLIent Management Team (Configuration
+            Manager and Intune)
           </RowSubHeader>
           <RowBody>
-            <ul>
-              <li>
-                Worked on ensuring quality releases of Intune. This included
-                testing for the migration from an internal legacy data center
-                system with extensive SQL usage to Azure.
-              </li>
-              <li>
-                Developed automation for testing application installation
+            <PrettyUL>
+              <PrettyLI>
+                Worked on ensuring quaPrettyLIty releases of Intune. This
+                included testing for the migration from an internal legacy data
+                center system with extensive SQL usage to Azure.
+              </PrettyLI>
+              <PrettyLI>
+                Developed automation for testing appPrettyLIcation installation
                 scenarios. Most notable, created a tool that allowed for the
-                creation of arbitrary application packages, increasing testing
-                efficiency.
-              </li>
-              <li>
+                creation of arbitrary appPrettyLIcation packages, increasing
+                testing efficiency.
+              </PrettyLI>
+              <PrettyLI>
                 Worked with OS group to support our products with initial
                 Windows 10 launch.
-              </li>
-            </ul>
+              </PrettyLI>
+            </PrettyUL>
           </RowBody>
         </RowContent>
         <RowPostFix></RowPostFix>
