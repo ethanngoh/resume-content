@@ -9,14 +9,17 @@ import { Overview } from "./sections/overview";
 import { School } from "./sections/school";
 import { Skills } from "./sections/skills";
 import styled from "styled-components";
+import { Footnote } from "./sections/footnote";
 
 const PDF = styled.div`
-    height: 1064px;
+    height: 1056px;
     width: 816px;
     overflow: hidden;
-    padding: 1.25em;
     font-family: "Raleway", sans-serif;
-    font-size: 0.87em;
+    font-size: 0.83em;
+    box-sizing: border-box;
+    padding: 0.5em 1em;
+    border: solid 20px ${COLORS.ROYAL_BLUE};
 `;
 
 function App() {
@@ -33,6 +36,7 @@ function App() {
             <Skills />
             <School />
             <Awards />
+            <Footnote />
         </PDF>
     );
 }

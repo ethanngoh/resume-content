@@ -13,6 +13,7 @@ export const SectionHeader = styled.div`
     width: 100px;
     font-size: ${HEADER_SIZE};
     color: ${COLORS.BACKUP_BLUE};
+    font-weight: 600;
 `;
 
 export const SectionContent = styled.div`

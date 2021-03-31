@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const PrettyUL = styled.ul`
     margin: 0;
-    padding: 0 1.25em;
+    padding: 0 0.8em;
     list-style-type: none;
     position: relative;
 `;
@@ -10,7 +10,7 @@ export const PrettyUL = styled.ul`
 export const PrettyLI = styled.li`
     padding-bottom: 0.25em;
     &::before {
-        content: "■";
+        content: "-";
         position: absolute;
         left: -0;
         font-size: 1.1em;
