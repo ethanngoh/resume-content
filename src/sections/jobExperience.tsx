@@ -62,7 +62,7 @@ export const JobExperience = () => (
                             <PrettyLI>
                                 As a member of this team, I led our frontend
                                 development and was the primary interface with
-                                partner teams for both requirements managment
+                                partner teams for both requirements management
                                 and ongoing support needs.
                             </PrettyLI>
                             <PrettyLI>
@@ -113,7 +113,7 @@ export const JobExperience = () => (
                             <PrettyLI>
                                 Assisting in the Seattle internship pilot. This
                                 includes attending all interview debriefs for
-                                interns to help callibrate the new interview
+                                interns to help calibrate the new interview
                                 category, on campus recruiting and mentoring an
                                 intern.
                             </PrettyLI>
@@ -137,14 +137,14 @@ export const JobExperience = () => (
                             <PrettyLI>
                                 Developed infrastructure to support our cross
                                 platform development needs, ensuring that the
-                                entire team couled develop for iOS in a Windows
+                                entire team could develop for iOS in a Windows
                                 heavy environment. This included converting and
                                 supporting a move from MSBuild to Gulp.
                             </PrettyLI>
                             <PrettyLI>
                                 Managed two contingent developers, scheduling
                                 work, reviewing deliverables and growing their
-                                technical abbilities, helping them to contribute
+                                technical abilities, helping them to contribute
                                 even more within the team.
                             </PrettyLI>
                         </PrettyUL>

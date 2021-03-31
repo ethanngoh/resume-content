@@ -17,6 +17,7 @@ jobs:
             - run: npm ci
             - run: npx tsc
             - run: npx prettier --check .
+            - run: npm run spellcheck
             - run: npm run build
 
             - name: Deploy
