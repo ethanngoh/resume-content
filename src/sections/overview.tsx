@@ -4,8 +4,8 @@ export const Overview = () => (
     <Section style={{ alignItems: "baseline" }}>
         <SectionHeader>Overview</SectionHeader>
         <SectionContent>
-            Senior frontend developer with extensive TypeScript and React
-            experience, based in Seattle.
+            Highly experienced full stack software engineer, seeking new
+            Seattle-based opportunities
         </SectionContent>
     </Section>
 );
