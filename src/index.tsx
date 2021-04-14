@@ -16,7 +16,7 @@ const PDF = styled.div`
     width: 816px;
     overflow: hidden;
     font-family: "Raleway", sans-serif;
-    font-size: 0.8em;
+    font-size: 0.75em;
     box-sizing: border-box;
     padding: 0.5em 1em;
     border: solid 20px ${COLORS.ROYAL_BLUE};
