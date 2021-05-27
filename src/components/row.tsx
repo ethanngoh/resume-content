@@ -6,7 +6,7 @@ export const Row = styled.div`
     display: flex;
 
     flex-direction: row;
-    padding-top: 0.25em;
+    padding-bottom: 0.75em;
 `;
 
 export const RowContent = styled.div`
@@ -22,7 +22,9 @@ export const RowSubHeader = styled.div`
     color: ${COLORS.BACKUP_BLUE};
 `;
 
-export const RowBody = styled.div``;
+export const RowBody = styled.div`
+    line-height: 1.25em;
+`;
 
 export const RowPostFix = styled.div`
     width: 70px;

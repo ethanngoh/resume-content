@@ -13,13 +13,12 @@ export const School = () => (
         <SectionContent>
             <Row>
                 <RowContent>
-                    <RowHeader>Rochester Institute of Technology</RowHeader>
+                    <RowHeader>Duke University</RowHeader>
                     <RowBody>
-                        B.S. in Software Engineering, Minors in Computer Science
-                        and Psychology
+                        B.Se. in Electrical and Computer Engineering, Computer Science, and Mathematics
                     </RowBody>
                 </RowContent>
-                <RowPostFix>2009-2013</RowPostFix>
+                <RowPostFix>2008-2012</RowPostFix>
             </Row>
         </SectionContent>
     </Section>

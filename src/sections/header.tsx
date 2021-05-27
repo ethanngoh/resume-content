@@ -31,27 +31,27 @@ export const Header = () => (
                 fontWeight: 700
             }}
         >
-            Chris Bentivenga
+            Ethan Goh
         </div>
         <div style={{ display: "flex", flexDirection: "column" }}>
             <TableRow>
                 <TableHeader>
                     <IoIosMail />
                 </TableHeader>
-                <TableCell>chris@chrisbenti.com</TableCell>
+                <TableCell>ethan@ethangoh.com</TableCell>
             </TableRow>
             <TableRow>
                 <TableHeader>
                     <ImLink />
                 </TableHeader>
-                <TableCell>chrisbenti.com</TableCell>
+                <TableCell>ethangoh.com</TableCell>
             </TableRow>
             <TableRow>
                 <TableHeader>
                     <ImPhone />
                 </TableHeader>
                 <TableCell>
-                    <Mono>908-692-3112</Mono>
+                    <Mono>425-445-2299</Mono>
                 </TableCell>
             </TableRow>
         </div>

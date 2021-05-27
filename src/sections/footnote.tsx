@@ -14,6 +14,6 @@ const FootnoteStyling = styled.div`
 export const Footnote = () => (
     <FootnoteStyling>
         * Work history abbreviated for space. For full work history, see
-        linkedin.com/in/chrisbenti
+        linkedin.com/in/ethangoh
     </FootnoteStyling>
 );

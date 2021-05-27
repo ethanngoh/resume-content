@@ -13,27 +13,27 @@ const JobExperienceDetails = () => (
     <>
         <Row>
             <RowContent>
-                <RowHeader>Stripe</RowHeader>
-                <RowSubHeader>Software Engineer - Cash Reporting</RowSubHeader>
+                <RowHeader>Sourcebite</RowHeader>
+                <RowSubHeader>CTO</RowSubHeader>
                 <RowBody>
                     <PrettyUL>
                         <PrettyLI>
-                            As a member of the Cash Reporting team, I am
-                            responsible for a processing critical data from bank
-                            transaction/balance reports (SWIFT/BAI), and making
-                            that data available for internal partners.
+                            Chief technological officer of Sourcebite (www.sourcebite.com), a B2B service that connects supply and demand within the food industry in Singapore.
                         </PrettyLI>
+                    </PrettyUL>
+                </RowBody>
+            </RowContent>
+            <RowPostFix>Jan 2020 to Present</RowPostFix>
+        </Row>
+        <Row>
+            <RowContent>
+                <RowHeader>Stripe</RowHeader>
+                <RowSubHeader>Software Engineer - Banking Platform</RowSubHeader>
+                <RowBody>
+                    <PrettyUL>
                         <PrettyLI>
-                            As a senior member of the team, I am currently
-                            leading an effort to safely migrate report
-                            processing from a legacy processing pipeline to a
-                            distributed, SOA pipeline.
-                        </PrettyLI>
-                        <PrettyLI>
-                            As a result, we have begun to safely migrate several
-                            reports, increasing SLA compliance, reducing
-                            processing time by hours, enabling Stripe to meet
-                            it's increasing regulatory burden.
+                            Technical Lead for the Banking Platform Cash Reporting team, architecting a cash reporting pipeline to process bank transaction/balance reports (SWIFT/BAI) used for Stripe's cash reconciliation. Something something credit transfers.
+                            Something something Financial Rigor River. Something grew team from 2-5
                         </PrettyLI>
                     </PrettyUL>
                 </RowBody>
@@ -42,152 +42,56 @@ const JobExperienceDetails = () => (
         </Row>
         <Row>
             <RowContent>
-                <RowHeader></RowHeader>
-                <RowSubHeader>
-                    Software Engineer - Support Products
-                </RowSubHeader>
-                <RowBody>
-                    <PrettyUL>
-                        <PrettyLI>
-                            Tech lead for the data migrations workstream. This
-                            effort supported users as they migrated highly
-                            sensitive information on and off of Stripe's
-                            platform in a complaint manner.
-                        </PrettyLI>
-                        <PrettyLI>
-                            Lead developer and main contributor on a project
-                            supporting the migration of BACS direct debits to
-                            Stripe, supporting the acquisition of large EU based
-                            customers.
-                        </PrettyLI>
-                        <PrettyLI>
-                            Architect and lead developer of a new distributed,
-                            SOA based migration approach; replacing a slow and
-                            operationally intensive script based approach.
-                            Currently used in support of BACS migrations.
-                        </PrettyLI>
-                        <PrettyLI>
-                            Contributor to the support.stripe.com redesign.
-                        </PrettyLI>
-                    </PrettyUL>
-                </RowBody>
-            </RowContent>
-            <RowPostFix></RowPostFix>
-        </Row>
-        <Row>
-            <RowContent>
                 <RowHeader>Lyft</RowHeader>
                 <RowSubHeader>
-                    Full Stack Engineer - Open Platform Team
+                    Senior Software Engineer
                 </RowSubHeader>
                 <RowBody>
                     <PrettyUL>
                         <PrettyLI>
-                            Lead frontend developer for Lyft’s Open Platform
-                            initiative, which allowed vehicles to participate in
-                            the world's largest public autonomous pilot (Las
-                            Vegas).
+                            Technical lead for the Open Platform Fleet Management team, architecting and creating tooling for the Level 5 (Autonomous Vehicle Division) and various Open Platform partners. Provisioned and integrated autonomous vehicles to service rides on the Lyft platform, which has served the worlds largest public autonomous pilot in Las Vegas.
                         </PrettyLI>
                         <PrettyLI>
-                            Responsible for designing, architecting and building
-                            frontend tools to facilitate operational needs of
-                            fleet (I.E real time insight into fleet health and
-                            performance), enhancing R/D speed safely.
+                            Technical lead for the Driver Education team, where we built data driven systems to encourage drivers to provide a quality passenger experience. Architected Lyft’s rating and feedback service that aggregates users’ feedback across the app to uphold the quality of the product.
                         </PrettyLI>
-                        <PrettyLI>Additional details covered by NDA.</PrettyLI>
+                        <PrettyLI>Designed and implemented the venues experience on the Airports &amp; Venues team, which serves 10% of all Lyft rides. Created tools for customer service agents to customize the pickup experience for sticky areas in their local markets.</PrettyLI>
                     </PrettyUL>
                 </RowBody>
             </RowContent>
-            <RowPostFix>June 2016 to June 2019</RowPostFix>
+            <RowPostFix>2016 - 2019</RowPostFix>
         </Row>
-        <Row>
-            <RowContent>
-                <RowSubHeader>
-                    Full Stack Engineer - Internal Productivity
-                </RowSubHeader>
-                <RowBody>
-                    <PrettyUL>
-                        <PrettyLI>
-                            Frontend teach lead for the team. Was the primary
-                            interface with partner teams for both requirements
-                            management and ongoing support needs for several
-                            projects.
-                        </PrettyLI>
-                        <PrettyLI>
-                            Projects owned included an internal corporate
-                            directory, auto-generated documentation site and
-                            compensation dashboard.
-                        </PrettyLI>
-                    </PrettyUL>
-                </RowBody>
-            </RowContent>
-            <RowPostFix></RowPostFix>
-        </Row>
-        <Row>
-            <RowContent>
-                <RowSubHeader>Frontend Engineer - Observability</RowSubHeader>
-                <RowBody>
-                    <PrettyUL>
-                        <PrettyLI>
-                            Maintained Lyft's internal Grafana instance,
-                            developed a custom Grafana plugin to improve
-                            integration with our stats vendor, Wavefront.
-                        </PrettyLI>
-                        <PrettyLI>
-                            Developed an internal portal for surfacing
-                            infrastructure events from various services to
-                            support live site issues (Envoy metrics, Jenkins
-                            deploys, PagerDuty alarms).
-                        </PrettyLI>
-                        <PrettyLI>
-                            Supported other teams in creating alarms and
-                            dashboards for their services.
-                        </PrettyLI>
-                    </PrettyUL>
-                </RowBody>
-            </RowContent>
-            <RowPostFix></RowPostFix>
-        </Row>
-
         <Row>
             <RowContent>
                 <RowHeader>Microsoft</RowHeader>
-                <RowSubHeader>Software Engineer II - Gig Jam</RowSubHeader>
+                <RowSubHeader>Software Engineer II - Azure Media Services</RowSubHeader>
                 <RowBody>
                     <PrettyUL>
                         <PrettyLI>
-                            Created a multi-platform application using web
-                            technologies (TypeScript, KnockoutJS, HTML, LESS,
-                            Cordova) and native platform extensions (Cordova
-                            plugins).
+                            Architected a distributed media storage solution using Azure Storage that reduced COGS by 30%.
+                            Developed backend services for Office 365 Video and defined the Media Services REST APIs.
                         </PrettyLI>
                         <PrettyLI>
-                            Developed infrastructure to support our cross
-                            platform development needs, ensuring that the entire
-                            team could develop for iOS in a Windows heavy
-                            environment.
+                            Improved the deployment speed of Media Services by 7x by rearchitecting the engineering pipeline.
                         </PrettyLI>
-                        <PrettyLI>Managed two contingent developers.</PrettyLI>
                     </PrettyUL>
                 </RowBody>
             </RowContent>
-            <RowPostFix>June 2013 to April 2016</RowPostFix>
+            <RowPostFix>2012 - 2016</RowPostFix>
         </Row>
         <Row>
             <RowContent>
                 <RowSubHeader>
-                    SDET/SDE - Enterprise Client Management Team (Configuration
-                    Manager and Intune)
+                    Software Engineer - Lync Server
                 </RowSubHeader>
                 <RowBody>
                     <PrettyUL>
                         <PrettyLI>
-                            Worked on ensuring quality releases of Intune,
-                            especially on-prem to cloud migration scenarios.
+                            Improved Lync Server’s reliability and performance by algorithmically partitioning and redistributing
+                            user load evenly across hardware.
                         </PrettyLI>
                         <PrettyLI>
-                            Created a tool for developing N-many custom test
-                            applications.
+                            Designed and achieved seamless upgrades of the Lync Online by revamping the deployment infra.
+                            Redesigned Lync’s monitoring system to oversee the health of the Lync Online Server.
                         </PrettyLI>
                     </PrettyUL>
                 </RowBody>

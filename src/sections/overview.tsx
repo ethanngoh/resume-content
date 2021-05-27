@@ -4,8 +4,7 @@ export const Overview = () => (
     <Section style={{ alignItems: "baseline" }}>
         <SectionHeader>Overview</SectionHeader>
         <SectionContent>
-            Highly experienced full stack software engineer, seeking new
-            Seattle-based opportunities
+            Tenured software engineer, seeking new Seattle-based opportunities
         </SectionContent>
     </Section>
 );

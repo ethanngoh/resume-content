@@ -5,12 +5,10 @@ export const Skills = () => (
         <SectionHeader>Skills</SectionHeader>
         <SectionContent>
             <div>
-                <b>Experienced:</b> Ruby, React, TypeScript/JavaScript, Python,
-                Git, AWS, Envoy
+                <b>Experienced:</b> C#, Python, Java, Git, AWS, Azure, Envoy
             </div>
             <div>
-                <b>Familiar:</b> Webpack, C#, PowerShell, Salt/Puppet/Terraform,
-                Azure
+                <b>Familiar:</b> React, TypeScript/JavaScript, Ruby, PowerShell, Salt/Puppet/Terraform
             </div>
         </SectionContent>
     </Section>
