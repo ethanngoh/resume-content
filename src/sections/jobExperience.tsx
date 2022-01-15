@@ -58,7 +58,7 @@ const JobExperienceDetails = () => (
                     </PrettyUL>
                 </RowBody>
             </RowContent>
-            <RowPostFix>2016 - 2019</RowPostFix>
+            <RowPostFix>Jan 2016 - Jun 2019</RowPostFix>
         </Row>
         <Row>
             <RowContent>
@@ -76,7 +76,7 @@ const JobExperienceDetails = () => (
                     </PrettyUL>
                 </RowBody>
             </RowContent>
-            <RowPostFix>2012 - 2016</RowPostFix>
+            <RowPostFix>Sep 2012 - Dec 2015</RowPostFix>
         </Row>
         <Row>
             <RowContent>
