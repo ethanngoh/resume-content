@@ -1,10 +1,4 @@
-import {
-    Row,
-    RowBody,
-    RowContent,
-    RowHeader,
-    RowPostFix
-} from "../components/row";
+import { Row, RowBody, RowContent, RowHeader, RowPostFix } from "../components/row";
 import { Section, SectionContent, SectionHeader } from "../components/section";
 
 export const Awards = () => (

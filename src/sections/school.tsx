@@ -1,10 +1,4 @@
-import {
-    Row,
-    RowBody,
-    RowContent,
-    RowHeader,
-    RowPostFix
-} from "../components/row";
+import { Row, RowBody, RowContent, RowHeader, RowPostFix } from "../components/row";
 import { Section, SectionContent, SectionHeader } from "../components/section";
 
 export const School = () => (
@@ -14,9 +8,7 @@ export const School = () => (
             <Row>
                 <RowContent>
                     <RowHeader>Duke University</RowHeader>
-                    <RowBody>
-                        B.Se. in Electrical and Computer Engineering, Computer Science, and Mathematics
-                    </RowBody>
+                    <RowBody>B.Se. in Electrical and Computer Engineering, Computer Science, and Mathematics</RowBody>
                 </RowContent>
                 <RowPostFix>2008-2012</RowPostFix>
             </Row>

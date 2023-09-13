@@ -6,9 +6,7 @@ const waitForDOMStable = (page, options = { timeout: 30000, idleTime: 500 }) =>
             new Promise((resolve, reject) => {
                 setTimeout(() => {
                     observer.disconnect();
-                    const msg =
-                        `timeout of ${timeout} ms ` +
-                        "exceeded waiting for DOM to stabilize";
+                    const msg = `timeout of ${timeout} ms ` + "exceeded waiting for DOM to stabilize";
                     reject(Error(msg));
                 }, timeout);
                 const observer = new MutationObserver(() => {
