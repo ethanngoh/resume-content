@@ -33,7 +33,8 @@
         "watch-pdf-fast": "nodemon --exec 'npm run grab-pdf' -e js,jsx,ts,tsx,css",
         "grab-pdf": "wait-on -v http://127.0.0.1:3000 && node render.js || true",
         "lint": "npx prettier --write . && npm run spellcheck",
-        "spellcheck": "cspell src/**/*.{tsx,ts,html}"
+        "spellcheck": "cspell src/**/*.{tsx,ts,html}",
+        "stop": "pm2 delete all"
     },
     "eslintConfig": {
         "extends": [

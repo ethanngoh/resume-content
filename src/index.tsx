@@ -7,7 +7,6 @@ import { COLORS } from "./constants/colors";
 import { Footnote } from "./sections/footnote";
 import { Header } from "./sections/header";
 import { JobExperience } from "./sections/jobExperience";
-import { Overview } from "./sections/overview";
 import { School } from "./sections/school";
 import { Skills } from "./sections/skills";
 
@@ -31,7 +30,6 @@ function App() {
     return (
         <PDF>
             <Header />
-            <Overview />
             <JobExperience />
             <Skills />
             <School />
