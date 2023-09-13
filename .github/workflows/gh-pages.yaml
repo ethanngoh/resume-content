@@ -13,9 +13,8 @@ jobs:
             - name: Setup Node
               uses: actions/setup-node@v1
               with:
-                  node-version: "14.x"
-            - run: npm ci
-            - run: npx tsc
+                  node-version: "18.x"
+            - run: PUPPETEER_PRODUCT=firefox npm ci
             - run: npx prettier --check .
             - run: npm run spellcheck
             - run: npm run build
