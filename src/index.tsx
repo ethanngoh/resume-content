@@ -1,15 +1,15 @@
+import styled from "@emotion/styled";
 import React from "react";
-import ReactDOM from "react-dom";
 import { useEffect } from "react";
+import ReactDOM from "react-dom";
+
 import { COLORS } from "./constants/colors";
-import { Awards } from "./sections/awards";
+import { Footnote } from "./sections/footnote";
 import { Header } from "./sections/header";
 import { JobExperience } from "./sections/jobExperience";
 import { Overview } from "./sections/overview";
 import { School } from "./sections/school";
 import { Skills } from "./sections/skills";
-import styled from "styled-components";
-import { Footnote } from "./sections/footnote";
 
 const PDF = styled.div`
     height: 1056px;

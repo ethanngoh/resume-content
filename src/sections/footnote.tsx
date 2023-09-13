@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "@emotion/styled";
 
 const FootnoteStyling = styled.div`
     position: absolute;
@@ -13,7 +13,6 @@ const FootnoteStyling = styled.div`
 
 export const Footnote = () => (
     <FootnoteStyling>
-        * Work history abbreviated for space. For full work history, see
-        linkedin.com/in/ethangoh
+        * Work history abbreviated for space. For full work history, see linkedin.com/in/ethangoh
     </FootnoteStyling>
 );

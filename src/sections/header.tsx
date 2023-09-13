@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "@emotion/styled";
 import { COLORS } from "../constants/colors";
 
 import { ImLink, ImPhone } from "react-icons/im";
