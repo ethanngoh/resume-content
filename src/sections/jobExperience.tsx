@@ -24,11 +24,9 @@ const JobExperienceDetails = () => (
                             from functional prototype into a robust, scalable production application.
                         </PrettyLI>
                         <PrettyLI>
-                            Assumed the pivotal role of sole people manager for the technical team, including
-                            establishing a comprehensive performance management process, upleveling the engineering
-                            team. Additionally, was responsible for all engineering hiring, from managing external
-                            recruiting agencies, designing an interview process custom to Chad’s needs, and bringing in
-                            the individuals to the team.
+                            Assumed the pivotal role of sole people manager for the technical team, including recruiting
+                            and onboarding, establishing a comprehensive performance management process, and upleveling
+                            the engineering team.
                         </PrettyLI>
                     </PrettyUL>
                 </RowBody>
