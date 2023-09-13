@@ -40,7 +40,7 @@ const runJob = async () => {
         console.log("printing");
 
         await page.pdf({
-            path: `output/ethan-egoh-resume.pdf`,
+            path: `output/ethan-goh-resume.pdf`,
             format: "Letter",
             pageRanges: "1"
         });
